@@ -17,6 +17,8 @@ Dev server: `.claude/launch.json` defines `podcast-site` (port 4321) for the pre
 - `src/site.ts`: title, host bio, trailer URL, platform links (blank url = shows "Soon"), credits.
 - `src/content/episodes/*.md`: one file per episode. Frontmatter: `number`, `title`, `description`, `reading` (list of `citation` + optional `url`; `*asterisks*` = italics), optional `releaseDate`, `duration`, `audioUrl`. Markdown body = show notes, shown below the description.
 - `src/pages/`: home (`index.astro`), `about.astro`, `further-reading.astro` (built from each episode's `reading`), `episodes/index.astro`, `episodes/[id].astro`.
+- `src/styles/global.css`: all styling; palette tokens on `:root` were sampled from the cover art.
+- `src/assets/cover.jpg`: cover art (Astro optimizes it). `public/`: favicon, og.jpg, `audio/trailer.mp3`.
 
 ## Publishing
 
@@ -24,8 +26,6 @@ Dev server: `.claude/launch.json` defines `podcast-site` (port 4321) for the pre
 - `.github/workflows/publish.yml` builds and deploys to GitHub Pages on every push to `main`.
 - Domain: lastjurytrialpodcast.com (set as `site` in `astro.config.mjs`), registered at Porkbun; DNS = 4 GitHub A records + www CNAME; HTTPS enforced.
 - GitHub CLI is installed at `~/.local/gh/bin/gh` (not on PATH).
-- `src/styles/global.css`: all styling; palette tokens on `:root` were sampled from the cover art.
-- `src/assets/cover.jpg`: cover art (Astro optimizes it). `public/`: favicon, og.jpg, `audio/trailer.mp3`.
 
 ## Content rules
 
