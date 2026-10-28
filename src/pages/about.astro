@@ -1,0 +1,58 @@
+---
+import Base from '../layouts/Base.astro';
+import Credits from '../components/Credits.astro';
+import { site } from '../site';
+---
+
+<Base title="About">
+  <section class="page-head">
+    <div class="wrap">
+      <p class="kicker">About the series</p>
+      <h1 class="display-heading">The case, and why it matters</h1>
+    </div>
+  </section>
+
+  <section class="section paper">
+    <div class="wrap narrow prose">
+      <h2>The case</h2>
+      <p>
+        In 1959, a jury in Bombay (now Mumbai) acquitted Naval Commander Kawas Nanavati in the killing of
+        his wife’s lover. The case was a media spectacle in India and in the international press: an
+        upstanding naval officer engaging in vigilante justice, and a tabloid, <em>Blitz</em>, stirring up
+        sympathy for the defendant.
+      </p>
+      <p>
+        The jury split 8–1. Higher court judges called the verdict “perverse” and inconsistent with the
+        evidence, and the case went to the Supreme Court of India, which sided with them. Nanavati went to
+        prison.
+      </p>
+      <p>
+        The case came to be known, not quite accurately, as “the last jury trial in India.” But it hastened
+        the end of a system that elite lawyers and politicians saw as inefficient and ill-suited to a country
+        as religiously and linguistically diverse as India. In 1973, trial by jury was abolished, without
+        resistance.
+      </p>
+
+      <h2>Why it matters now</h2>
+      <p>
+        In the United States we often take the right to a trial by jury for granted. People grumble about
+        jury duty and make satirical TV shows about the characters you meet in the courtroom. Yet the jury
+        remains one of the most powerful ways ordinary people can resist a state that is punishing someone
+        unfairly. When lawyers and judges are motivated by political interests and their own careers, the
+        value of independent jurors becomes even more striking.
+      </p>
+      <p>
+        India’s history, from the nationalists who prized trial by jury under British rule to its quiet
+        abolition after independence, shows how our sense of the jury is shaped by the political needs of
+        the time and by what we imagine justice looks like. Seeing how another multicultural democracy
+        weighed the risks and promise of jury trials makes clearer what is at stake for us.
+      </p>
+
+      <h2>The host</h2>
+      <p set:html={site.host.bio} />
+
+      <h2>Credits</h2>
+      <Credits />
+    </div>
+  </section>
+</Base>

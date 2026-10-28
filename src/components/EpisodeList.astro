@@ -1,0 +1,33 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { episodeStatus } from '../lib/episodes';
+
+interface Props {
+  episodes: CollectionEntry<'episodes'>[];
+  clamp?: boolean;
+}
+
+const { episodes, clamp = false } = Astro.props;
+---
+
+<ol class="episode-list">
+  {
+    episodes.map((ep) => (
+      <li>
+        <a class="episode" href={`/episodes/${ep.id}/`}>
+          <span class="episode-num" aria-hidden="true">
+            {String(ep.data.number).padStart(2, '0')}
+          </span>
+          <div class="episode-body">
+            <p class="kicker">
+              Episode {ep.data.number} · {episodeStatus(ep)}
+            </p>
+            <h3>{ep.data.title}</h3>
+            <p class:list={['episode-desc', { clamp }]}>{ep.data.description}</p>
+            <span class="more">{ep.data.audioUrl ? 'Listen' : 'Read more'} →</span>
+          </div>
+        </a>
+      </li>
+    ))
+  }
+</ol>

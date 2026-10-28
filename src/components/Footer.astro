@@ -1,0 +1,20 @@
+---
+import { site } from '../site';
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div>
+      <a class="wordmark" href="/">{site.title}</a>
+      <p class="footer-note">A podcast by {site.host.name}.</p>
+    </div>
+    <nav aria-label="Footer">
+      <a href="/episodes/">Episodes</a>
+      <a href="/further-reading/">Further Reading</a>
+      <a href="/about/">About</a>
+      <a href="/#listen">Listen</a>
+    </nav>
+    <p class="footer-copy">© {year} {site.host.name}</p>
+  </div>
+</footer>

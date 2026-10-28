@@ -1,0 +1,22 @@
+---
+import { site } from '../site';
+---
+
+<ul class="listen-links">
+  {
+    site.listen.map((platform) => (
+      <li>
+        {platform.url ? (
+          <a class="platform" href={platform.url} rel="noopener">
+            {platform.name}
+          </a>
+        ) : (
+          <span class="platform is-soon">
+            {platform.name}
+            <small>Soon</small>
+          </span>
+        )}
+      </li>
+    ))
+  }
+</ul>

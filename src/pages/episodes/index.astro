@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+import EpisodeList from '../../components/EpisodeList.astro';
+import { getEpisodes } from '../../lib/episodes';
+
+const episodes = await getEpisodes();
+---
+
+<Base title="Episodes">
+  <section class="page-head">
+    <div class="wrap">
+      <p class="kicker">The series</p>
+      <h1 class="display-heading">Episodes</h1>
+    </div>
+  </section>
+  <section class="section slate">
+    <div class="wrap">
+      <EpisodeList episodes={episodes} />
+    </div>
+  </section>
+</Base>

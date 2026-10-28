@@ -1,0 +1,61 @@
+---
+import { Image } from 'astro:assets';
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import ListenLinks from '../../components/ListenLinks.astro';
+import ReadingList from '../../components/ReadingList.astro';
+import { getEpisodes, episodeStatus } from '../../lib/episodes';
+import cover from '../../assets/cover.jpg';
+
+export async function getStaticPaths() {
+  const episodes = await getEpisodes();
+  return episodes.map((ep, i) => ({
+    params: { id: ep.id },
+    props: { ep, prev: episodes[i - 1], next: episodes[i + 1], total: episodes.length },
+  }));
+}
+
+const { ep, prev, next, total } = Astro.props;
+const { Content } = await render(ep);
+---
+
+<Base title={ep.data.title} description={ep.data.description}>
+  <section class="hero episode-hero">
+    <div class="wrap episode-hero-grid">
+      <Image src={cover} alt="" widths={[260, 520]} sizes="260px" class="cover cover-sm" loading="eager" />
+      <div>
+        <p class="kicker">Episode {ep.data.number} of {total} · {episodeStatus(ep)}</p>
+        <h1 class="display-heading">{ep.data.title}</h1>
+        {
+          ep.data.audioUrl ? (
+            <audio class="player" controls preload="none" src={ep.data.audioUrl}>
+              <a href={ep.data.audioUrl}>Download the episode</a>
+            </audio>
+          ) : (
+            <p class="soon-note">This episode isn’t out yet. Follow the show to hear it first.</p>
+          )
+        }
+        <ListenLinks />
+      </div>
+    </div>
+  </section>
+
+  <section class="section paper">
+    <div class="wrap narrow prose">
+      <p class="lede">{ep.data.description}</p>
+      <Content />
+      {
+        ep.data.reading.length > 0 && (
+          <>
+            <h2>Further reading</h2>
+            <ReadingList items={ep.data.reading} />
+          </>
+        )
+      }
+    </div>
+    <nav class="wrap narrow episode-nav" aria-label="More episodes">
+      {prev ? <a href={`/episodes/${prev.id}/`}>← Episode {prev.data.number}: {prev.data.title}</a> : <span />}
+      {next && <a href={`/episodes/${next.id}/`}>Episode {next.data.number}: {next.data.title} →</a>}
+    </nav>
+  </section>
+</Base>

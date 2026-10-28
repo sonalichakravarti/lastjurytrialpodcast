@@ -1,0 +1,24 @@
+---
+const path = Astro.url.pathname;
+const links = [
+  { href: '/episodes/', label: 'Episodes' },
+  { href: '/further-reading/', label: 'Further Reading' },
+  { href: '/about/', label: 'About' },
+  { href: '/#listen', label: 'Listen' },
+];
+---
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="wordmark" href="/">The Last Jury Trial in India</a>
+    <nav aria-label="Main">
+      {
+        links.map((link) => (
+          <a href={link.href} aria-current={path.startsWith(link.href) ? 'page' : undefined}>
+            {link.label}
+          </a>
+        ))
+      }
+    </nav>
+  </div>
+</header>

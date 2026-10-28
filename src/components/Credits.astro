@@ -1,0 +1,16 @@
+---
+import { site } from '../site';
+---
+
+<dl class="credits">
+  {
+    site.credits.map((credit) => (
+      <div>
+        <dt>{credit.role}</dt>
+        {credit.names.map((name) => (
+          <dd>{name}</dd>
+        ))}
+      </div>
+    ))
+  }
+</dl>

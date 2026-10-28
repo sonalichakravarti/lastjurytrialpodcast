@@ -1,0 +1,35 @@
+---
+import Base from '../layouts/Base.astro';
+import ReadingList from '../components/ReadingList.astro';
+import { getEpisodes } from '../lib/episodes';
+
+const episodes = (await getEpisodes()).filter((ep) => ep.data.reading.length > 0);
+---
+
+<Base
+  title="Further Reading"
+  description="Books and articles to read alongside each episode of The Last Jury Trial in India."
+>
+  <section class="page-head">
+    <div class="wrap">
+      <p class="kicker">Episode by episode</p>
+      <h1 class="display-heading">Further Reading</h1>
+    </div>
+  </section>
+
+  <section class="section paper">
+    <div class="wrap narrow">
+      {
+        episodes.map((ep) => (
+          <section class="reading-group">
+            <p class="kicker">Episode {ep.data.number}</p>
+            <h2>
+              <a href={`/episodes/${ep.id}/`}>{ep.data.title}</a>
+            </h2>
+            <ReadingList items={ep.data.reading} />
+          </section>
+        ))
+      }
+    </div>
+  </section>
+</Base>

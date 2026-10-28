@@ -1,0 +1,32 @@
+---
+interface Props {
+  items: { citation: string; url?: string }[];
+}
+
+const { items } = Astro.props;
+
+// Escape the citation, then turn *asterisks* into italics.
+const format = (text: string) =>
+  text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/\*([^*]+)\*/g, '<em>$1</em>');
+
+const site = (url: string) => new URL(url).hostname.replace(/^www\./, '');
+---
+
+<ul class="reading-list">
+  {
+    items.map((item) => (
+      <li>
+        <Fragment set:html={format(item.citation)} />
+        {item.url && (
+          <a class="reading-link" href={item.url} rel="noopener">
+            {site(item.url)} ↗
+          </a>
+        )}
+      </li>
+    ))
+  }
+</ul>
