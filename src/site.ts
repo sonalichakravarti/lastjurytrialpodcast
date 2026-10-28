@@ -21,6 +21,7 @@ export const site = {
   credits: [
     { role: 'Host & writer', names: ['Sonali Chakravarti'] },
     { role: 'Editorial team', names: ['Sara McCrae', 'Leah Feder'] },
+    { role: 'Research assistance', names: ['Sarah Gorman'] },
     { role: 'Sound design & mix', names: ['Emma Munger'] },
     { role: 'Cover art', names: ['Supriya Kota'] },
   ],
