@@ -10,7 +10,7 @@ Node.js lives in `~/.local/node` and is not on the shell PATH, so prefix command
 export PATH="$HOME/.local/node/bin:$PATH" && npm run build
 ```
 
-Dev server: `.claude/launch.json` defines `site` (port 4321) for the preview pane.
+Dev server: `.claude/launch.json` defines `podcast-site` (port 4321) for the preview pane.
 
 ## Where things live
 
@@ -22,7 +22,7 @@ Dev server: `.claude/launch.json` defines `site` (port 4321) for the preview pan
 
 - Repository: https://github.com/sonalichakravarti/lastjurytrialpodcast (public; Pages source = GitHub Actions).
 - `.github/workflows/publish.yml` builds and deploys to GitHub Pages on every push to `main`.
-- Domain: lastjurytrialpodcast.com (set as `site` in `astro.config.mjs`).
+- Domain: lastjurytrialpodcast.com (set as `site` in `astro.config.mjs`), registered at Porkbun; DNS = 4 GitHub A records + www CNAME; HTTPS enforced.
 - GitHub CLI is installed at `~/.local/gh/bin/gh` (not on PATH).
 - `src/styles/global.css`: all styling; palette tokens on `:root` were sampled from the cover art.
 - `src/assets/cover.jpg`: cover art (Astro optimizes it). `public/`: favicon, og.jpg, `audio/trailer.mp3`.
