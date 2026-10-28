@@ -20,6 +20,7 @@ Dev server: `.claude/launch.json` defines `site` (port 4321) for the preview pan
 
 ## Publishing
 
+- Repository: https://github.com/sonalichakravarti/lastjurytrialpodcast (public; Pages source = GitHub Actions).
 - `.github/workflows/publish.yml` builds and deploys to GitHub Pages on every push to `main`.
 - Domain: lastjurytrialpodcast.com (set as `site` in `astro.config.mjs`).
 - GitHub CLI is installed at `~/.local/gh/bin/gh` (not on PATH).
