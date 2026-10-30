@@ -24,6 +24,10 @@ reading:
       Jaffe, James. *The Panchayat in Modern India: Documents and Cases since 1800*.
       Hyderabad: Orient BlackSwan, 2025.
     url: https://orientblackswan.com/details?obsin=4140
+  - citation: >-
+      Chakravarti, Sonali. *Radical Enfranchisement in the Jury Room and Public Life*.
+      Chicago: University of Chicago Press, 2019.
+    url: https://press.uchicago.edu/ucp/books/book/chicago/R/bo42738732.html
 # When the episode is out, uncomment and fill in these lines:
 # releaseDate: 2026-12-06
 # duration: 42 min
