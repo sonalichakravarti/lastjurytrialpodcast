@@ -23,6 +23,7 @@ export const site = {
     { role: 'Editorial team', names: ['Sara McCrae', 'Leah Feder'] },
     { role: 'Research assistance', names: ['Sarah Gorman'] },
     { role: 'Sound design & mix', names: ['Emma Munger'] },
+    { role: 'Original theme music', names: ['Samvit Singhal'] },
     { role: 'Cover art', names: ['Supriya Kota'] },
   ],
 };
