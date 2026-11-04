@@ -2,12 +2,13 @@
 number: 4
 title: The Case for Juries
 description: >-
-  How is the judge-centered legal system working in India today? The detention of Umar
-  Khalid, an activist who protested the 2019 Citizenship Amendment Act, has gone on for
-  more than 5 years, an experience consistent with the tremendous backlog of the system.
-  What would happen if he had to have his case heard before a jury? This thought
-  experiment of the jury trial in India is paired with a discussion of the legal system
-  in Argentina where jury trials have recently been introduced in the most serious cases.
+  How is the judge-centered legal system working in India today? Tremendous backlogs and
+  a feeling of distance between the people and the courts are the concerns I heard most
+  about. The detention of Umar Khalid, an activist who protested the 2020 Citizenship
+  Amendment Act has gone on for more than 5 years. What would happen if he had his case
+  heard before a jury? This thought experiment of the jury trial in India is paired with
+  a discussion of the legal system in Argentina where jury trials have recently been
+  introduced in the most serious cases.
 reading:
   - citation: >-
       Liang, Lawrence. *Objection, M’Lord: Cinematic Justice in Popular Hindi Films*.

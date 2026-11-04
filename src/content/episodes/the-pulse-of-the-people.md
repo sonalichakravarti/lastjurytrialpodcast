@@ -2,14 +2,14 @@
 number: 1
 title: The Pulse of the People
 description: >-
-  April, 1959, a respected naval commander comes back from time at sea to find out
-  that his wife is having an affair. He drives to the apartment of his wife’s lover
-  to talk to him. The lover ends up dead. The murder trial of Commander Kawas Nanavati
-  captivated Bombay — it had sex, betrayal and intrigue. When the jury verdict came
-  out, many were outraged and they thought the jury system was to blame. The trial
-  came to be known as “The Last Jury Trial in India” because it heralded the end of
-  the jury system in 1973. It was a lightning rod for concerns about the jury being
-  corrupted by prejudice and the media.
+  It’s April, 1959, a respected naval commander comes back from time at sea to find out
+  that his wife is having an affair. Despondent and angry, he drives to the apartment of
+  his wife’s lover to talk to him. The lover ends up dead. The murder trial of Commander
+  Kawas Nanavati captivated Bombay because it had everything—sex, betrayal, intrigue.
+  When the jury verdict came out, many were outraged and they thought the jury system
+  was to blame. The trial came to be known as “The Last Jury Trial in India” because it
+  heralded the end of the jury in India and became a lightning rod for concerns about
+  the jury being corrupted by prejudice and the media.
 reading:
   - citation: >-
       Karkaria, Bachi. *In Hot Blood: The Nanavati Story that Shook India*. New Delhi:

@@ -2,13 +2,13 @@
 number: 3
 title: They, the People
 description: >-
-  Even though jury trials were suspended for many nationalist leaders, there were still
-  moments when jurors exerted their power, as we see with the acquittal of Communist
-  organizer, Philip Spratt, a focus of the episode. The threat of a jury undermining the
-  prosecution in the sprawling Meerut Conspiracy Trial also led the colonial government
-  to take drastic action. Lastly, this episode also looks at the drafting of the 1950
-  Indian Constitution and asks, “Why did a country that committed to universal suffrage
-  decide that the jury trial was not worth fighting for?”
+  Even though jury trials were suspended for many nationalist leaders charged with
+  political crimes, there were still moments when jurors exerted their power. One example
+  is the trial of Communist organizer, Philip Spratt, a focus of the episode. The threat
+  of a jury undermining the prosecution in the sprawling Meerut Conspiracy Trial also led
+  the colonial government to take drastic action. Lastly, this episode also looks at the
+  drafting of the 1950 Indian Constitution and asks, “Why did a country that committed
+  to universal suffrage decide that the jury trial was not worth fighting for?”
 reading:
   - citation: >-
       Naresh, Vatsal. “‘Problems of an Other’s Making’: B. R. Ambedkar, Caste, and

@@ -4,12 +4,12 @@ title: You Can’t Trust Them
 description: >-
   If colonialism is a system of forced rule by an outside entity, why did the British
   introduce jury trials in India? Were they fair? This episode looks at two remarkable
-  trials: the first is a murder trial over the killing of a British tea plantation owner
-  by his workers, and the other is the 1908 trial of Bal Gangadhar Tilak. Tilak was the publisher of
-  the most widely read newspaper in Western India and faced charges of sedition, that
-  is, promoting “disaffection” for the king. Taken together, the trials show that the
-  jury trial was meant to legitimize the British as an empire of law, but the way the
-  trials were conducted revealed something more sinister.
+  trials: the first is a murder trial of a British tea plantation owner by his workers,
+  and the other is the 1908 trial of Bal Gangadhar Tilak. Tilak was the publisher of the
+  most widely read newspaper in Western India and faced charges of sedition, that is,
+  promoting “disaffection” for the king. Taken together, the trials show that the jury
+  trial was meant to legitimize the British as an empire of law, but the way the trials
+  were conducted revealed something more sinister.
 reading:
   - citation: >-
       Kolsky, Elizabeth. *Colonial Justice in British India: White Violence and the Rule of
