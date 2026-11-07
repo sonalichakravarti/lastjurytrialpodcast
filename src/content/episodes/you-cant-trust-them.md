@@ -1,6 +1,9 @@
 ---
 number: 2
 title: You Can’t Trust Them
+releaseDate: 2026-11-07
+duration: 40 min
+audioUrl: /audio/episode-2.mp3
 description: >-
   If colonialism is a system of forced rule by an outside entity, why did the British
   introduce jury trials in India? Were they fair? This episode looks at two remarkable
