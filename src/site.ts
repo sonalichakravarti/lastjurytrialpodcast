@@ -11,7 +11,7 @@ export const site = {
   // Contact form. Messages are delivered by Web3Forms (web3forms.com), so your
   // email address never appears on the site. Paste your access key between the
   // quotes; while it is blank, the Contact page says the form is coming soon.
-  contactFormKey: '',
+  contactFormKey: 'a617cc74-671a-4608-8b79-d0b0bb172834',
   // A page link (Apple, Spotify…) shows as a button; a direct audio file
   // (ending in .mp3 or .m4a) plays right on the home page.
   trailerUrl: '/audio/trailer.mp3',
