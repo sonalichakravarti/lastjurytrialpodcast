@@ -752,6 +752,89 @@ a.platform:hover {
   font-weight: 600;
 }
 
+/* ---------- Contact ---------- */
+
+.contact-form {
+  margin-top: 2rem;
+  max-width: 560px;
+}
+
+.field {
+  margin-bottom: 1.5rem;
+}
+
+.field label {
+  display: block;
+  font-family: var(--font-type);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--mauve-deep);
+  margin-bottom: 0.4rem;
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+  font: inherit;
+  color: var(--ink);
+  background: var(--paper-light);
+  border: 2px solid var(--ink);
+  border-radius: 0;
+  padding: 0.65rem 0.8rem;
+}
+
+.field textarea {
+  resize: vertical;
+  min-height: 9rem;
+}
+
+.field input:focus-visible,
+.field textarea:focus-visible {
+  outline-offset: 0;
+}
+
+.bot-field {
+  display: none;
+}
+
+.contact-form button {
+  cursor: pointer;
+}
+
+.contact-form button:disabled {
+  cursor: wait;
+  opacity: 0.6;
+  transform: none;
+}
+
+.contact-form .form-status {
+  font-family: var(--font-type);
+  font-size: 0.95rem;
+  margin: 1.25rem 0 0;
+  min-height: 1.5em;
+}
+
+.form-status.is-sent,
+.form-status.is-error {
+  padding: 0.9rem 1.1rem;
+  border-left: 4px solid var(--ink);
+  background: var(--paper-light);
+}
+
+.form-status.is-error {
+  border-left-color: var(--mauve-deep);
+}
+
+.form-note {
+  font-family: var(--font-type);
+  font-size: 0.95rem;
+  border: 1px dashed rgb(30 42 52 / 0.4);
+  padding: 0.9rem 1.1rem;
+  max-width: 560px;
+}
+
 /* ---------- Small screens ---------- */
 
 @media (max-width: 820px) {

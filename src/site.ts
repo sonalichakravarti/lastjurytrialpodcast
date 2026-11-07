@@ -6,8 +6,12 @@ export const site = {
     'A podcast about the rise and fall of the jury in India, starting with the sensational 1959 murder trial of Commander Kawas Nanavati. Hosted by Sonali Chakravarti.',
   host: {
     name: 'Sonali Chakravarti',
-    bio: 'Sonali Chakravarti is Professor of Government at Wesleyan University and is the author of <cite>Radical Enfranchisement in the Jury Room and Public Life</cite>. She can be reached at <a href="mailto:schakravarti@wesleyan.edu">schakravarti@wesleyan.edu</a>.',
+    bio: 'Sonali Chakravarti is Professor of Government at Wesleyan University and is the author of <cite>Radical Enfranchisement in the Jury Room and Public Life</cite>.',
   },
+  // Contact form. Messages are delivered by Web3Forms (web3forms.com), so your
+  // email address never appears on the site. Paste your access key between the
+  // quotes; while it is blank, the Contact page says the form is coming soon.
+  contactFormKey: '',
   // A page link (Apple, Spotify…) shows as a button; a direct audio file
   // (ending in .mp3 or .m4a) plays right on the home page.
   trailerUrl: '/audio/trailer.mp3',

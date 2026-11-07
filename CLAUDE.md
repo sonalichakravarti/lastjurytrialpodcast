@@ -14,9 +14,9 @@ Dev server: `.claude/launch.json` defines `podcast-site` (port 4321) for the pre
 
 ## Where things live
 
-- `src/site.ts`: title, host bio, trailer URL, platform links (blank url = shows "Soon"), credits.
+- `src/site.ts`: title, host bio, trailer URL, platform links (blank url = shows "Soon"), credits, `contactFormKey` (Web3Forms access key for the Contact page; blank = "coming soon"). The owner's email address should not appear anywhere on the site.
 - `src/content/episodes/*.md`: one file per episode. Frontmatter: `number`, `title`, `description`, `reading` (list of `citation` + optional `url`; `*asterisks*` = italics), optional `releaseDate`, `duration`, `audioUrl`. Markdown body = show notes, shown below the description.
-- `src/pages/`: home (`index.astro`), `about.astro`, `further-reading.astro` (built from each episode's `reading`), `episodes/index.astro`, `episodes/[id].astro`.
+- `src/pages/`: home (`index.astro`), `about.astro`, `contact.astro`, `further-reading.astro` (built from each episode's `reading`), `episodes/index.astro`, `episodes/[id].astro`.
 - `src/styles/global.css`: all styling; palette tokens on `:root` were sampled from the cover art.
 - `src/assets/cover.jpg`: cover art (Astro optimizes it). `public/`: favicon, og.jpg, `audio/trailer.mp3`.
 
