@@ -1,6 +1,9 @@
 ---
 number: 1
 title: The Pulse of the People
+releaseDate: 2026-11-07
+duration: 46 min
+audioUrl: /audio/episode-1.mp3
 description: >-
   It’s April, 1959, a respected naval commander comes back from time at sea to find out
   that his wife is having an affair. Despondent and angry, he drives to the apartment of
