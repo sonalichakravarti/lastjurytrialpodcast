@@ -20,7 +20,6 @@ export const site = {
     { name: 'Spotify', url: 'https://open.spotify.com/show/6Uz8RT6xD2ITIkTw8edw80' },
     { name: 'New Books Network', url: 'https://newbooksnetwork.com/category/special-series/the-last-jury-trial-in-india' },
     { name: 'WESU', url: '' },
-    { name: 'RSS', url: 'https://feeds.simplecast.com/qNwGXrPZ' },
   ],
   credits: [
     { role: 'Host & writer', names: ['Sonali Chakravarti'] },

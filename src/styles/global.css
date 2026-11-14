@@ -686,6 +686,13 @@ a.platform:hover {
   max-width: 560px;
 }
 
+.listen-note {
+  font-family: var(--font-type);
+  font-size: 0.95rem;
+  color: var(--mist);
+  margin: 0;
+}
+
 .soon-note {
   font-family: var(--font-type);
   font-size: 0.95rem;

@@ -32,5 +32,4 @@ reading:
 # When the episode is out, uncomment and fill in these lines:
 # releaseDate: 2026-12-06
 # duration: 42 min
-# audioUrl: https://link-to-the-episode.mp3
 ---

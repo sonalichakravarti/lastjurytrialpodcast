@@ -31,6 +31,8 @@ const { Content } = await render(ep);
             <audio class="player" controls preload="none" src={ep.data.audioUrl}>
               <a href={ep.data.audioUrl}>Download the episode</a>
             </audio>
+          ) : ep.data.releaseDate ? (
+            <p class="listen-note">Listen to this episode wherever you get your podcasts:</p>
           ) : (
             <p class="soon-note">This episode isn’t out yet. Follow the show to hear it first.</p>
           )

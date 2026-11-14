@@ -24,7 +24,7 @@ const { episodes, clamp = false } = Astro.props;
             </p>
             <h3>{ep.data.title}</h3>
             <p class:list={['episode-desc', { clamp }]}>{ep.data.description}</p>
-            <span class="more">{ep.data.audioUrl ? 'Listen' : 'Read more'} →</span>
+            <span class="more">{ep.data.audioUrl || ep.data.releaseDate ? 'Listen' : 'Read more'} →</span>
           </div>
         </a>
       </li>

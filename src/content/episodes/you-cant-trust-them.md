@@ -3,7 +3,6 @@ number: 2
 title: You Can’t Trust Them
 releaseDate: 2026-11-07
 duration: 40 min
-audioUrl: /audio/episode-2.mp3
 description: >-
   If colonialism is a system of forced rule by an outside entity, why did the British
   introduce jury trials in India? Were they fair? This episode looks at two remarkable
@@ -26,8 +25,4 @@ reading:
       Jaffe, James. *Trial by Jury in India: A History, 1862–1973*. Cambridge: Cambridge
       University Press, 2026.
     url: https://www.cambridge.org/core/books/trial-by-jury-in-india/9827413D0C028C46353EE984FEB20F36
-# When the episode is out, uncomment and fill in these lines:
-# releaseDate: 2026-11-22
-# duration: 42 min
-# audioUrl: https://link-to-the-episode.mp3
 ---
