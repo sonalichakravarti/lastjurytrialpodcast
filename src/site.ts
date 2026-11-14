@@ -16,11 +16,11 @@ export const site = {
   // (ending in .mp3 or .m4a) plays right on the home page.
   trailerUrl: '/audio/trailer.mp3',
   listen: [
-    { name: 'Apple Podcasts', url: '' },
-    { name: 'Spotify', url: '' },
-    { name: 'New Books Network', url: '' },
+    { name: 'Apple Podcasts', url: 'https://podcasts.apple.com/us/podcast/the-last-jury-trial-in-india/id6834305466' },
+    { name: 'Spotify', url: 'https://open.spotify.com/show/6Uz8RT6xD2ITIkTw8edw80' },
+    { name: 'New Books Network', url: 'https://newbooksnetwork.com/category/special-series/the-last-jury-trial-in-india' },
     { name: 'WESU', url: '' },
-    { name: 'RSS', url: '' },
+    { name: 'RSS', url: 'https://feeds.simplecast.com/qNwGXrPZ' },
   ],
   credits: [
     { role: 'Host & writer', names: ['Sonali Chakravarti'] },
