@@ -23,7 +23,7 @@ export const site = {
   ],
   credits: [
     { role: 'Host & writer', names: ['Sonali Chakravarti'] },
-    { role: 'Editorial team', names: ['Sara McCrae', 'Leah Feder'] },
+    { role: 'Editorial team', names: ['Sara McCrea', 'Leah Feder'] },
     { role: 'Research assistance', names: ['Sarah Gorman'] },
     { role: 'Sound design & mix', names: ['Emma Munger'] },
     { role: 'Original theme music', names: ['Samvit Singhal'] },
