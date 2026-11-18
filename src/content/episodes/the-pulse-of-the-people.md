@@ -16,7 +16,7 @@ reading:
   - citation: >-
       Karkaria, Bachi. *In Hot Blood: The Nanavati Story that Shook India*. New Delhi:
       Juggernaut Books, 2017.
-    url: https://www.juggernaut.in/products/in-hot-blood-the-nanavati-story-that-shook-india
+    url: https://www.amazon.com/dp/B081TB3FSS
   - citation: >-
       Prakash, Gyan. *Mumbai Fables*. Princeton, NJ: Princeton University Press, 2010.
     url: https://press.princeton.edu/books/paperback/9780691153179/mumbai-fables
