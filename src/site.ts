@@ -8,6 +8,8 @@ export const site = {
     name: 'Sonali Chakravarti',
     bio: 'Sonali Chakravarti is Professor of Government at Wesleyan University and is the author of <cite>Radical Enfranchisement in the Jury Room and Public Life</cite>.',
   },
+  // Shown at the bottom of every page.
+  usageNote: 'This podcast is for educational and research purposes and is not for commercial use.',
   // Contact form. Messages are delivered by Web3Forms (web3forms.com), so your
   // email address never appears on the site. Paste your access key between the
   // quotes; while it is blank, the Contact page says the form is coming soon.
