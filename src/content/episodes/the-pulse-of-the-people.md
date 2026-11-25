@@ -20,4 +20,13 @@ reading:
   - citation: >-
       Prakash, Gyan. *Mumbai Fables*. Princeton, NJ: Princeton University Press, 2010.
     url: https://press.princeton.edu/books/paperback/9780691153179/mumbai-fables
+  - citation: >-
+      Ramnath, Kalyani. “The Colonial Difference between Law and Fact: Notes on the
+      Criminal Jury in India.” *The Indian Economic & Social History Review* 50, no. 3
+      (2013): 341–63.
+    url: https://journals.sagepub.com/doi/abs/10.1177/0019464613494624
+  - citation: >-
+      Sharafi, Mitra. *Law and Identity in Colonial South Asia: Parsi Legal Culture,
+      1772–1947*. New York: Cambridge University Press, 2014.
+    url: https://www.cambridge.org/core/books/law-and-identity-in-colonial-south-asia/4840F2D9ED3686AD4ADB6312616DA191
 ---
